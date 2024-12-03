@@ -1,0 +1,54 @@
+#image{
+  height: 10%;
+  width: 20%;
+    
+}
+nav{
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: flex-end;
+    padding: 10px 10px;
+}
+
+ul{
+    /* border-style: solid; */
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+li{
+    /* border-style: solid; */
+    /* border-color: blue; */
+}
+
+div{
+    /* border-style: solid; */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    margin: 7px 7px;
+    font-size: 23px;
+
+}
+
+a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+div:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+body{
+    background-color: goldenrod;
+    border-style: double;
+    display: flex;
+}
